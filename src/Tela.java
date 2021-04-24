@@ -92,7 +92,7 @@ public class Tela extends JFrame {
         chkCulinaria.setBounds(135, 185, 120, 20);
         
         lblTimeFutebol = new JLabel("Time de Futebol");
-        lblTimeFutebol.setBounds(150, 210, 110, 20);
+        lblTimeFutebol.setBounds(15, 210, 110, 20);
         
         jComboBox1 = new JComboBox();
         jComboBox1.setBounds(110, 210, 110, 20);
@@ -119,11 +119,9 @@ public class Tela extends JFrame {
         add(chkEsportes);
         add(chkEducacao);
         add(chkCulinaria);
-        
         add(lblTimeFutebol);
-        //add(jComboBox1);
-        
-        //add(btnEnviar);
+        add(jComboBox1);
+        add(btnEnviar);
                
     }
     
