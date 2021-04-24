@@ -44,6 +44,8 @@ public class Tela extends JFrame {
         setSize(350, 600);
         setLocation(250, 250);
         
+        setLayout(null);
+        
         lblTitulo = new JLabel("Cadastro");
         lblTitulo.setBounds(150, 0, 300, 40);
         lblTitulo.setFont(new Font("Calibri", Font.BOLD, 18));
