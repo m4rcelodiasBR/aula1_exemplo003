@@ -41,14 +41,14 @@ public class Tela extends JFrame {
     public Tela() {
         
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(350, 600);
+        setSize(350, 400);
         setLocation(250, 250);
         
         setLayout(null);
         
         lblTitulo = new JLabel("Cadastro");
-        lblTitulo.setBounds(150, 0, 300, 40);
-        lblTitulo.setFont(new Font("Calibri", Font.BOLD, 18));
+        lblTitulo.setBounds(15, 0, 300, 40);
+        lblTitulo.setFont(new Font("Calibri", Font.BOLD, 20));
         
         lblNome = new JLabel("Nome: ");
         lblNome.setLocation(15, 35);
@@ -56,7 +56,7 @@ public class Tela extends JFrame {
         
         txtNome = new JTextField(10);
         txtNome.setLocation(110, 35);
-        txtNome.setSize(110, 20);
+        txtNome.setSize(140, 20);
         
         lblEmail = new JLabel("Email: ");
         lblEmail.setLocation(15, 60);
@@ -70,7 +70,7 @@ public class Tela extends JFrame {
         lblSenha.setBounds(15, 85, 100, 20);
         
         pswSenha = new JPasswordField();
-        pswSenha.setBounds(110, 85, 100, 20);
+        pswSenha.setBounds(110, 85, 140, 20);
         
         lblSexo = new JLabel("Sexo: ");
         lblSexo.setBounds(15, 110, 100 , 20);
@@ -85,19 +85,19 @@ public class Tela extends JFrame {
         lblEstiloLeitura.setBounds(15, 135, 110, 20);
         
         chkEsportes = new JCheckBox("Esportes");
-        chkEsportes.setBounds(135, 135, 120, 20);
+        chkEsportes.setBounds(115, 135, 120, 20);
         
         chkEducacao = new JCheckBox("Educação");
-        chkEducacao.setBounds(135, 160, 120, 20);
+        chkEducacao.setBounds(115, 155, 120, 20);
         
         chkCulinaria = new JCheckBox("Culinária");
-        chkCulinaria.setBounds(135, 185, 120, 20);
+        chkCulinaria.setBounds(115, 175, 120, 20);
         
-        lblTimeFutebol = new JLabel("Time de Futebol");
+        lblTimeFutebol = new JLabel("Time de Futebol:");
         lblTimeFutebol.setBounds(15, 210, 110, 20);
         
         jComboBox1 = new JComboBox();
-        jComboBox1.setBounds(110, 210, 110, 20);
+        jComboBox1.setBounds(110, 210, 140, 20);
         jComboBox1.addItem("Fluminense");
         jComboBox1.addItem("Botafogo");
         jComboBox1.addItem("Vasco");
@@ -105,7 +105,7 @@ public class Tela extends JFrame {
         jComboBox1.addItem("Flamengo");
         
         btnEnviar = new JButton("Enviar");
-        btnEnviar.setBounds(200, 300, 110, 30);
+        btnEnviar.setBounds(120, 280, 110, 20);
                       
         add(lblTitulo);
         add(lblNome);
